@@ -1,5 +1,13 @@
-# Dirt Track Racing Prototype (Unity 2022 LTS)
+# Unity Supercross Prototype (Unity 6, Built-In 3D)
 
-This repo contains C# scripts and setup notes for a minimal 3D Supercross-style dirt track prototype with a player bike, AI opponent, checkpointed laps, and HUD timers.
+A small, fully code-driven Supercross-inspired motorcycle racing prototype for Unity 6 (6000.2.x) using the Built-In Render Pipeline and the classic Input system. Drop the provided `Assets/Scripts` folder into a fresh project, add `GameBootstrap` to an empty `GameRoot` object, and press Play to race a lap-based indoor dirt track against two AI riders.
 
-See [`UNITY_SETUP.md`](UNITY_SETUP.md) for step-by-step instructions on importing the scripts into your `Assets/` folder and assembling the scene.
+## Features
+- Procedurally constructed arena track with tabletop, whoops section, and bermed corners using primitives.
+- Player motorcycle with arcade-friendly physics, boost, and lean visuals.
+- Two AI racers following the same waypoint track with slight randomness.
+- Lap checkpoints, live position tracking, lap timers, and race finish handling.
+- Minimal HUD built at runtime (no prefabs) plus pre-race countdown gating controls.
+
+## Quick Start
+See [`UNITY_SETUP.md`](UNITY_SETUP.md) for step-by-step setup and controls on macOS with Unity Hub.
