@@ -19,7 +19,6 @@ Use the Apps Script in `scripts/trading_journal.gs` to generate a Google Sheet c
 2. Copy the contents of `scripts/trading_journal.gs` into the editor.
 3. Save and run the `createTradingJournal()` function. Grant the requested Drive and Sheets permissions.
 4. A new spreadsheet named **Trading Journal** will be created with:
-   - A **Trades** sheet containing only dropdown inputs (date picker, Trade 1–5, Strategy Used, Liquidity Level) so no manual typing is required.
-   - Data-validation lists restricting Strategy Used and Liquidity Level to the exact options provided.
+
    - Built-in room for up to five trades per day across many days.
    - An **Analytics** sheet with a live pie chart showing the percentage distribution of strategies across all logged trades.
